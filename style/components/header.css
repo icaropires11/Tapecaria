@@ -1,0 +1,145 @@
+@import 'animate.css';
+
+
+header {
+    width: 1338px;
+    height: 642px;
+    margin: 0%;
+    /* display: none; */
+
+}
+
+#logo {
+    position: absolute;
+    top: 0%;
+    width: 320px;
+    border: 0px solid black;
+}
+
+#imglogo {
+    width: 320px;
+}
+
+nav {
+    position: absolute;
+    top: 2%;
+    height: 40px;
+    right: 5%;
+    width: 50%;
+    border: 0px solid black;
+}
+
+#burguer {
+    position: absolute;
+    right: 1%;
+    color: white;
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    top: 0%;
+    width: 28%;
+    left: 12%;
+    border: 0px solid black;
+
+    /* font-family: 'Qwitcher Grypen', cursive; */
+    font-family: 'My Soul', cursive;
+    font-size: 32px;
+
+}
+
+h2 {
+    font-family: 'Bree Serif', serif;
+}
+
+#btn_home {
+    position: absolute;
+    right: 72%;
+    bottom: 0%;
+}
+
+#btn_sobre_nos {
+    position: absolute;
+    right: 48%;
+    bottom: 0%;
+
+}
+
+#btn_Servicos {
+    position: absolute;
+    right: 25%;
+    bottom: 0%;
+
+}
+
+#btn_Contatos {
+    position: absolute;
+    right: 1%;
+    bottom: 0%;
+}
+
+#chamada {
+    position: absolute;
+    left: 5%;
+    top: 160px;
+    height: 160px;
+    width: 39%;
+    border: 0px solid black;
+
+    color: rgb(0, 0, 28);
+    font-family: 'Bree Serif', serif;
+    font-size: 32px;
+}
+
+#subtitulo {
+    position: absolute;
+    left: 5%;
+    top: 370px;
+    /* 50px de respiro */
+
+    height: 120px;
+    width: 39%;
+    border: 0px solid black;
+
+    color: #838282;
+    font-size: 12px;
+
+}
+
+#mostrar_mais {
+    position: absolute;
+    left: 5%;
+    top: 490px;
+    /* 50px de respiro */
+    /* border: solid 3px; */
+    /* height: 12px; */
+    text-align: center;
+    padding: 16px;
+    padding-left: 56px;
+    padding-right: 56px;
+
+    background: rgb(0, 180, 57);
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.whatsapplink {
+    text-decoration: none;
+    color: white;
+}
+
+#mostrar_mais:hover {
+    background-color: #008d31;
+}
+
+.slides {
+    position: absolute;
+    right: 1%;
+    top: 100px;
+    height: 500px;
+    width: 58%;
+    /* background-image: linear-gradient(rgb(5, 1, 105), rgb(3, 0, 53), rgb(3, 0, 53), rgb(2, 0, 23)); */
+    /* border: 11px solid black; */
+}

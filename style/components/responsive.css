@@ -1,0 +1,1612 @@
+@media only screen and (min-width: 1400px) {
+    body {
+        margin: 0%;
+    }
+
+    main {
+        max-width: 1348pxpx;
+        margin: 0%;
+        text-align: center;
+    }
+
+    header {
+
+        max-width: 1348px;
+        max-height: 1080px;
+        margin: 0%;
+        /* display: none; */
+        border: 0px solid black;
+
+    }
+
+    .about-us {
+        max-width: 1348px;
+        margin: 0%;
+        text-align: center;
+    }
+
+    .services {
+        max-width: 1348px;
+        margin: 0%;
+        text-align: center;
+    }
+
+
+    .footr {
+        max-width: 1348px;
+        margin: 0%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    body {
+        margin: 0%;
+    }
+
+    main {
+        width: 883px;
+        margin: 0%;
+    }
+
+
+
+    header {
+
+        background-image: linear-gradient(#f9cbcb, #f9cbcb, #f9cbcb, #f9cbcb, #f9cbcb, #fadddd, #fadddd, #fadddd, #f9eaea, white);
+        width: 100%;
+        height: 1080px;
+        margin: 0%;
+        /* display: none; */
+        border: 0px solid black;
+    }
+
+    #logo {
+        position: absolute;
+        top: 0%;
+        width: 320px;
+        border: 0px solid black;
+        left: 24px;
+    }
+
+    h1 {
+        left: 18%;
+    }
+
+    h2 {
+        margin: 2%;
+    }
+
+
+    #btn_sobre_nos,
+    #btn_home,
+    #btn_Servicos {
+        color: #050030;
+    }
+
+    #btn_sobre_nos:hover,
+    #btn_home:hover,
+    #btn_Servicos:hover {
+        background-color: #f9cbcb;
+    }
+
+    #btn_sobre_nos {
+        width: 18%;
+    }
+
+    #chamada {
+        position: absolute;
+        left: 5%;
+        top: 80px;
+        height: 160px;
+        width: 90%;
+        border: 0px solid black;
+        color: rgb(0, 0, 28);
+        font-family: 'Bree Serif', serif;
+        font-size: 48px;
+    }
+
+    #subtitulo {
+        position: absolute;
+        left: 5%;
+        top: 370px;
+        height: 120px;
+        width: 90%;
+        border: 0px solid black;
+        color: #838282;
+        font-size: 16px;
+    }
+
+    #mostrar_mais {
+        position: absolute;
+        left: 6%;
+        top: 975px;
+        /* border: solid 3px; */
+        /* height: 12px; */
+        text-align: center;
+        padding: 16px;
+        padding-left: 56px;
+        padding-right: 56px;
+        background: rgb(0, 180, 57);
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        width: auto;
+    }
+
+
+    .slides {
+        position: absolute;
+        right: 40%;
+        top: 475px;
+        height: 500px;
+        width: 58%;
+        /* background-image: linear-gradient(rgb(5, 1, 105), rgb(3, 0, 53), rgb(3, 0, 53), rgb(2, 0, 23)); */
+        /* border: 11px solid black; */
+    }
+
+    /* =================================================================================================== */
+    .about-us {
+        width: 883px;
+        margin: 0%;
+        top: 1180px;
+        height: 1080px;
+    }
+
+    .txt-about-us {
+        position: absolute;
+        left: 2%;
+    }
+
+    .txt-about-us {
+        width: 40%;
+        position: absolute;
+        border: 0px solid black;
+        left: 2%;
+    }
+
+    .animation1 {
+        position: absolute;
+        width: 22%;
+        border: 0px solid black;
+        right: 23.5%;
+        top: -37px;
+    }
+
+    .tap-igu1 {
+        position: absolute;
+        width: 22%;
+        border: 0px solid black;
+        right: 31%;
+        top: 281px;
+    }
+
+    .animation2 {
+        position: absolute;
+        width: 22.5%;
+        border: 0px solid black;
+        right: 26%;
+        top: 440px;
+    }
+
+    .tap-igu2 {
+        position: absolute;
+        width: 22%;
+        border: 0px solid black;
+        top: 756px;
+        right: 37%;
+    }
+
+    /* ====================================================================================================== */
+    .services {
+        position: absolute;
+        width: 883px;
+        height: 1080px;
+        top: 2250px;
+        background-image: linear-gradient(#fadddd, #f9eded, white);
+        border: 0px solid black;
+        margin: 0%;
+        /* display: none;  */
+    }
+
+    /* =============================================================================================================== */
+    .footr {
+        position: absolute;
+        top: 3819px;
+        width: 99%;
+        height: 210px;
+        background-image: linear-gradient(white, #f9eaea, #fadddd, #fadddd, #f9cbcb);
+
+        border: 0px solid#050030;
+
+        margin: 0%;
+        /* display: none;  */
+
+    }
+
+
+
+}
+
+@media only screen and (max-width: 601px) {
+
+    body {
+        margin: 0%;
+    }
+
+    main {
+        width: 582px;
+        margin: 0%;
+    }
+
+    header {
+
+        background-image: linear-gradient(#f9cbcb, #f9cbcb, #f9cbcb, #f9cbcb, #f9cbcb, #fadddd, #fadddd, #fadddd, #f9eaea, white);
+        width: 100%;
+        height: 918px;
+        margin: 0%;
+        /* display: none; */
+        border: 0px solid black;
+    }
+
+    nav {
+        top: 7%;
+        width: 69%;
+        height: 26px;
+        border: 0px solid black;
+        right: 5%;
+        display: none;
+        opacity: 90%;
+    }
+
+    #btn_home {
+        position: absolute;
+        left: 11%;
+        bottom: 75%;
+        width: 12%;
+        font-size: 12px;
+        background: none;
+        color: #050030;
+    }
+
+    #btn_sobre_nos {
+        position: absolute;
+        left: 33%;
+        bottom: 75%;
+        width: 21%;
+        font-size: 12px;
+        background: none;
+        color: #050030;
+
+
+    }
+
+    #btn_Servicos {
+        position: absolute;
+        right: 13%;
+        bottom: 75%;
+        width: 12%;
+        font-size: 12px;
+        background: none;
+        color: #050030;
+
+
+    }
+
+    #burguer {
+        width: 15%;
+        position: absolute;
+        right: 2%;
+        top: 2%;
+        border: 3px #050030;
+        display: inline-block;
+
+    }
+
+    #imgburguer {
+        width: 80%;
+        display: block;
+        border: 0px solid black;
+        right: 2%;
+        position: absolute;
+    }
+
+    #logo {
+        position: absolute;
+        top: 0%;
+        width: 320px;
+        border: 0px solid black;
+        left: 20px;
+    }
+
+    h1 {
+        width: 28%;
+        left: 1%;
+        top: 55px;
+        border: 0px solid black;
+        font-size: 24px;
+    }
+
+    #chamada {
+        position: absolute;
+        left: 4%;
+        top: 120px;
+        height: 160px;
+        width: 88%;
+        border: 0px solid black;
+        color: rgb(0, 0, 28);
+        font-family: 'Bree Serif', serif;
+        font-size: 40px;
+        display: block;
+    }
+
+    #subtitulo {
+        position: absolute;
+        left: 4%;
+        top: 360px;
+        height: 60px;
+        width: 88%;
+        border: 0px solid black;
+        color: #787878;
+        font-size: 14px;
+        display: block;
+    }
+
+    .slides {
+        position: absolute;
+        left: 19%;
+        top: 540px;
+        height: auto;
+        width: 352px;
+        display: block;
+    }
+
+    .gallery {
+        position: relative;
+        width: 352px;
+        height: 222px;
+        bottom: 0%;
+        left: 0%;
+        display: block;
+    }
+
+    .gallery .item {
+        position: absolute;
+        top: 0px;
+        left: 0%;
+        width: 356px;
+        /* height: 100%; */
+
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity .5s;
+
+        background: #ffffff;
+        border: 0px solid rgb(34, 32, 70);
+        border-radius: 0px;
+
+        display: block;
+        margin: 0%;
+
+    }
+
+
+    .imgfullscreen {
+        width: 99%;
+        display: block;
+    }
+
+
+    #mostrar_mais {
+        position: absolute;
+        left: 5%;
+        top: 875px;
+        /* border: solid 3px; */
+        /* height: 12px; */
+        /* text-align: justify; */
+        /* padding: 24px; */
+        /* padding-left: 80px; */
+        /* padding-right: 80px; */
+        background: rgb(0, 180, 57);
+        color: white;
+        cursor: pointer;
+        /* text-decoration: none; */
+        display: block;
+        font-size: 18px;
+        width: auto;
+        border-radius: 32px;
+    }
+
+    .whatsapplink {
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+
+    .btn {
+        color: rgb(255, 255, 255);
+        padding: 13px;
+        text-decoration: none;
+        text-align: center;
+        background: rgb(0, 0, 52);
+        width: 12%;
+        border: 0px solid black;
+        border-radius: 4px;
+        font-size: 12px;
+        display: block;
+
+    }
+
+    /* ======================================================================================================= */
+    /*about-us  */
+    .about-us {
+        position: absolute;
+        width: 99%;
+        height: 1534px;
+        top: 920px;
+        border: 0px solid black;
+        margin: 0%;
+        display: block;
+
+    }
+
+    .titulo-about-us {
+        position: absolute;
+        top: 2%;
+        left: 2%;
+
+        display: block;
+
+    }
+
+    .txt-about-us {
+        width: 96%;
+        margin-left: 2%;
+        position: absolute;
+        border: 0px solid black;
+        left: 0%;
+        top: 8.5%;
+        display: inline-block;
+    }
+
+    .tap-igu1 {
+        position: absolute;
+        width: 75%;
+        border: 0px solid black;
+        left: 25%;
+        top: 770px;
+        display: none;
+    }
+
+    .tap-igu2 {
+        position: absolute;
+        width: 75%;
+        border: 0px solid black;
+        top: 1160px;
+        left: 25%;
+        display: none;
+    }
+
+    .fig1,
+    .fig2 {
+        border-radius: 1px;
+        transform: rotate(0deg)
+    }
+
+    .animation1 {
+        position: absolute;
+        width: 75%;
+        border: 0px solid black;
+        right: 1.5%;
+        top: 920px;
+        display: none;
+    }
+
+    .animation2 {
+        position: absolute;
+        width: 75%;
+        border: 0px solid black;
+        right: 0%;
+        top: 1360px;
+        display: none;
+    }
+
+    /* ================================================================================ */
+    .services {
+        position: absolute;
+        width: 582px;
+        height: 757px;
+        top: 2601px;
+        background-image: linear-gradient(#fadddd, #f9cbcb, #fadddd, #f9eded, white);
+        border: 0px solid black;
+        margin: 0%;
+        /* display: none;  */
+    }
+
+    .h1services {
+        position: absolute;
+        left: 5%;
+        color: rgb(0, 1, 53);
+        top: 8%;
+    }
+
+
+    .galeria {
+        position: absolute;
+        top: 20%;
+        left: 2%;
+        width: 96%;
+        height: 60%;
+        gap: 24px;
+        border: 0px solid black;
+        /* // Resolução img  */
+
+        overflow-x: auto;
+        /* //   Para barra de rolagem não influenciar  página inteira */
+
+
+        display: flex;
+        flex: row nowrap;
+        /* nowrap não permite quebra de linha */
+    }
+
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .galeria::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .galeria {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+
+    .itm {
+        /* 25% menor, margin de 12.5 em cima e 12.5% em baixo. */
+        position: relative;
+        top: 12.5%;
+        width: 92%;
+        height: 69%;
+        flex-shrink: 0;
+        /* não permite que a imagem diminua para caber. */
+        opacity: 0.2;
+        transition: all 600ms ease-in-out;
+        display: block;
+    }
+
+    .contador {
+        top: 0%;
+        opacity: 1;
+        width: 92%;
+        height: 69%;
+        border: 4px solid #fadddd;
+        border-radius: 15px;
+        /* display: block; */
+    }
+
+    .btnesquerda {
+        /* setas */
+        position: absolute;
+        top: 40%;
+        padding: 16px;
+        border: 1px solid black;
+        border-radius: 50px;
+        background-color: rgb(207, 207, 207);
+        opacity: 0.5;
+        left: 2%;
+        display: none;
+    }
+
+    .btndireita {
+        /* setas */
+        position: absolute;
+        top: 40%;
+        padding: 16px;
+        border: 1px solid black;
+        border-radius: 50px;
+        background-color: rgb(207, 207, 207);
+        opacity: 0.5;
+        right: 2%;
+        display: none;
+    }
+
+    /* Para dispositivos móveis, acredito não haver necessidade dos botoes */
+    /* ======================================================================================================== */
+    /* footer */
+
+    .footr {
+        position: absolute;
+        top: 4000px;
+        width: 99%;
+        height: 210px;
+        background-image: linear-gradient(white, #f9eaea, #fadddd, #fadddd, #f9cbcb);
+
+        border: 0px solid#050030;
+
+        margin: 0%;
+        /* display: none;  */
+
+    }
+
+
+    .logofooter {
+        position: absolute;
+        /* border: 3px solid; */
+        width: 236px;
+        /* height: 120px; */
+
+        left: 27%;
+        top: 1%;
+        display: block;
+
+    }
+
+    .h1footer {
+        position: absolute;
+        left: 39%;
+        top: 36%;
+        /* text-align: center; */
+        /* border: 3px solid; */
+        width: 144px;
+        font-family: 'My Soul', cursive;
+        font-size: 32px;
+        color: #050030;
+        display: block;
+    }
+
+
+    .instafooter {
+        position: absolute;
+        left: 2%;
+        top: 2%;
+        display: block;
+
+    }
+
+    .facefooter {
+        position: absolute;
+        left: 2%;
+        top: 32%;
+        display: block;
+    }
+
+    .whatsfooter {
+        position: absolute;
+        left: -2%;
+        top: 64%;
+        display: block;
+    }
+
+    .endereco {
+        font-size: 12px;
+        color: grey;
+        position: absolute;
+        bottom: 0%;
+        left: 26%;
+
+        text-decoration: none;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    body {
+        margin: 0%;
+    }
+
+    main {
+        width: 462px;
+        margin: 0%;
+    }
+
+    header {
+
+        background-image: linear-gradient(#f9cbcb, #f9cbcb, #f9cbcb, #f9cbcb, #f9cbcb, #fadddd, #fadddd, #fadddd, #f9eaea, white);
+        width: 100%;
+        height: 667px;
+        margin: 0%;
+        /* display: none; */
+        border: 0px solid black;
+    }
+
+    nav {
+        top: 7%;
+        width: 69%;
+        height: 26px;
+        border: 0px solid black;
+        right: 5%;
+        display: none;
+        opacity: 90%;
+    }
+
+    #btn_home {
+        position: absolute;
+        left: 11%;
+        bottom: 75%;
+        width: 12%;
+        font-size: 12px;
+        background: none;
+        color: #050030;
+    }
+
+    #btn_sobre_nos {
+        position: absolute;
+        left: 33%;
+        bottom: 75%;
+        width: 21%;
+        font-size: 12px;
+        background: none;
+        color: #050030;
+
+
+    }
+
+    #btn_Servicos {
+        position: absolute;
+        right: 13%;
+        bottom: 75%;
+        width: 12%;
+        font-size: 12px;
+        background: none;
+        color: #050030;
+
+
+    }
+
+    #burguer {
+        width: 15%;
+        position: absolute;
+        right: 2%;
+        top: 2%;
+        border: 3px #050030;
+        display: inline-block;
+
+    }
+
+    #imgburguer {
+        width: 80%;
+        display: block;
+        border: 0px solid black;
+        right: 2%;
+        position: absolute;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    h1 {
+        width: 28%;
+        left: 5%;
+        top: 0px;
+
+        border: 0px solid black;
+        font-size: 24px;
+    }
+
+    #chamada {
+        position: absolute;
+        left: 4%;
+        top: 140px;
+        height: 65px;
+        width: 88%;
+        border: 0px solid black;
+        color: rgb(0, 0, 28);
+        font-family: 'Bree Serif', serif;
+        font-size: 24px;
+        display: block;
+    }
+
+    #subtitulo {
+        position: absolute;
+        left: 4%;
+        top: 280px;
+        height: 60px;
+        width: 88%;
+        border: 0px solid black;
+        color: #787878;
+        font-size: 8px;
+        display: block;
+
+    }
+
+    .slides {
+        position: absolute;
+        left: 5%;
+        top: 380px;
+        height: auto;
+        width: 352px;
+        display: block;
+    }
+
+    .gallery {
+        position: relative;
+        width: 352px;
+        height: 222px;
+        bottom: 0%;
+        left: 0%;
+        display: block;
+    }
+
+    .gallery .item {
+        position: absolute;
+        top: 0px;
+        left: 0%;
+        width: 400px;
+        /* height: 100%; */
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity .5s;
+        background: #ffffff;
+        border: 0px solid rgb(34, 32, 70);
+        border-radius: 0px;
+        display: block;
+        margin: 0%;
+    }
+
+
+    .imgfullscreen {
+        width: 99%;
+        display: block;
+    }
+
+
+    #mostrar_mais {
+        position: absolute;
+        left: 6%;
+        top: 761px;
+        /* border: solid 3px; */
+        /* height: 12px; */
+        /* text-align: justify; */
+        /* padding: 24px; */
+        /* padding-left: 80px; */
+        /* padding-right: 80px; */
+        background: rgb(0, 180, 57);
+        color: white;
+        cursor: pointer;
+        /* text-decoration: none; */
+        display: block;
+        font-size: 18px;
+        width: auto;
+        border-radius: 32px;
+    }
+
+    .whatsapplink {
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+
+    .btn {
+        color: rgb(255, 255, 255);
+        padding: 13px;
+        text-decoration: none;
+        text-align: center;
+        background: rgb(0, 0, 52);
+        width: 12%;
+        border: 0px solid black;
+        border-radius: 4px;
+        font-size: 12px;
+        display: block;
+
+    }
+
+    /* ======================================================================================================= */
+    /*about-us  */
+    .about-us {
+        position: absolute;
+        width: 99%;
+        height: 1334px;
+        top: 815px;
+        border: 0px solid black;
+        margin: 0%;
+        display: block;
+
+    }
+
+    .titulo-about-us {
+        position: absolute;
+        top: 2%;
+        left: 2%;
+
+        display: block;
+
+    }
+
+    .txt-about-us {
+        width: 96%;
+        margin-left: 2%;
+        position: absolute;
+        border: 0px solid black;
+        left: 0%;
+        top: 8.5%;
+        display: inline-block;
+    }
+
+    .tap-igu1 {
+        position: absolute;
+        width: 92%;
+        border: 0px solid black;
+        left: 8%;
+        top: 770px;
+        display: none;
+    }
+
+    .tap-igu2 {
+        position: absolute;
+        width: 92%;
+        border: 0px solid black;
+        top: 1160px;
+        left: 8%;
+        display: none;
+    }
+
+    .fig1,
+    .fig2 {
+        border-radius: 1px;
+        transform: rotate(0deg)
+    }
+
+    .animation1 {
+        position: absolute;
+        width: 92%;
+        border: 0px solid black;
+        right: 3.5%;
+        top: 920px;
+        display: none;
+    }
+
+    .animation2 {
+        position: absolute;
+        width: 96%;
+        border: 0px solid black;
+        right: 0%;
+        top: 1360px;
+        display: none;
+    }
+
+    /* ================================================================================ */
+    .services {
+        position: absolute;
+        width: 462px;
+        height: 757px;
+        top: 2501px;
+        background-image: linear-gradient(#fadddd, #f9cbcb, #fadddd, #f9eded, white);
+        border: 0px solid black;
+        margin: 0%;
+        /* display: none;  */
+    }
+
+    .h1services {
+        position: absolute;
+        left: 5%;
+        color: rgb(0, 1, 53);
+        top: 8%;
+    }
+
+
+    .galeria {
+        position: absolute;
+        top: 20%;
+        left: 2%;
+        width: 96%;
+        height: 60%;
+        gap: 24px;
+        border: 0px solid black;
+        /* // Resolução img  */
+
+        overflow-x: auto;
+        /* //   Para barra de rolagem não influenciar  página inteira */
+
+
+        display: flex;
+        flex: row nowrap;
+        /* nowrap não permite quebra de linha */
+    }
+
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .galeria::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .galeria {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+
+    .itm {
+        /* 25% menor, margin de 12.5 em cima e 12.5% em baixo. */
+        position: relative;
+        top: 12.5%;
+        width: 92%;
+        height: 69%;
+        flex-shrink: 0;
+        /* não permite que a imagem diminua para caber. */
+        opacity: 0.2;
+        transition: all 600ms ease-in-out;
+        display: block;
+    }
+
+    .contador {
+        top: 0%;
+        opacity: 1;
+        width: 92%;
+        height: 69%;
+        border: 4px solid #fadddd;
+        border-radius: 15px;
+        /* display: block; */
+    }
+
+    .btnesquerda {
+        /* setas */
+        position: absolute;
+        top: 40%;
+        padding: 16px;
+        border: 1px solid black;
+        border-radius: 50px;
+        background-color: rgb(207, 207, 207);
+        opacity: 0.5;
+        left: 2%;
+        display: none;
+    }
+
+    .btndireita {
+        /* setas */
+        position: absolute;
+        top: 40%;
+        padding: 16px;
+        border: 1px solid black;
+        border-radius: 50px;
+        background-color: rgb(207, 207, 207);
+        opacity: 0.5;
+        right: 2%;
+        display: none;
+    }
+
+    /* ======================================================================================================== */
+    /* footer */
+
+    .footr {
+        position: absolute;
+        top: 3800px;
+        width: 99%;
+        height: 210px;
+        background-image: linear-gradient(white, #f9eaea, #fadddd, #fadddd, #f9cbcb);
+
+        border: 0px solid#050030;
+
+        margin: 0%;
+        /* display: none;  */
+
+    }
+
+
+    .logofooter {
+        position: absolute;
+        /* border: 3px solid; */
+        width: 236px;
+        /* height: 120px; */
+
+        left: 27%;
+        top: 1%;
+        display: block;
+
+    }
+
+    .h1footer {
+        position: absolute;
+        left: 39%;
+        top: 36%;
+        /* text-align: center; */
+        /* border: 3px solid; */
+        width: 144px;
+        font-family: 'My Soul', cursive;
+        font-size: 32px;
+        color: #050030;
+        display: block;
+    }
+
+
+    .instafooter {
+        position: absolute;
+        left: 2%;
+        top: 2%;
+        display: block;
+
+    }
+
+    .facefooter {
+        position: absolute;
+        left: 2%;
+        top: 32%;
+        display: block;
+    }
+
+    .whatsfooter {
+        position: absolute;
+        left: -2%;
+        top: 64%;
+        display: block;
+    }
+
+    .endereco {
+        font-size: 12px;
+        color: grey;
+        position: absolute;
+        bottom: 0%;
+        left: 25%;
+
+        text-decoration: none;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    body {
+        margin: 0%;
+    }
+
+    main {
+        width: 358px;
+        margin: 0%;
+    }
+
+    header {
+
+        background-color: #f9cbcb;
+        width: 100%;
+        height: 667px;
+        margin: 0%;
+        /* display: none; */
+        border: 0px solid black;
+    }
+
+    nav {
+        top: 7%;
+        width: 69%;
+        height: 26px;
+        border: 0px solid black;
+        right: 5%;
+        display: none;
+        opacity: 90%;
+    }
+
+    #btn_home {
+        position: absolute;
+        left: 11%;
+        bottom: 75%;
+        width: 12%;
+        font-size: 12px;
+        background: none;
+        color: #050030;
+    }
+
+    #btn_sobre_nos {
+        position: absolute;
+        left: 33%;
+        bottom: 75%;
+        width: 21%;
+        font-size: 12px;
+        background: none;
+        color: #050030;
+
+
+    }
+
+    #btn_Servicos {
+        position: absolute;
+        right: 13%;
+        bottom: 75%;
+        width: 12%;
+        font-size: 12px;
+        background: none;
+        color: #050030;
+
+
+    }
+
+    #burguer {
+        width: 15%;
+        position: absolute;
+        right: 2%;
+        top: 2%;
+        border: 3px #050030;
+        display: inline-block;
+
+    }
+
+    #imgburguer {
+        width: 80%;
+        display: block;
+        border: 0px solid black;
+        right: 2%;
+        position: absolute;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    h1 {
+        width: 28%;
+        left: 5%;
+        top: 0px;
+
+        border: 0px solid black;
+        font-size: 24px;
+    }
+
+    #chamada {
+        position: absolute;
+        left: 4%;
+        top: 80px;
+        height: 65px;
+        width: 88%;
+        border: 0px solid black;
+        color: rgb(0, 0, 28);
+        font-family: 'Bree Serif', serif;
+        font-size: 24px;
+        display: block;
+    }
+
+    #subtitulo {
+        position: absolute;
+        left: 4%;
+        top: 200px;
+        height: 60px;
+        width: 88%;
+        border: 0px solid black;
+        color: #787878;
+        font-size: 8px;
+        display: block;
+
+    }
+
+    .slides {
+        position: absolute;
+        left: 0%;
+        top: 280px;
+        height: auto;
+        width: 352px;
+        display: block;
+    }
+
+    .gallery {
+        position: relative;
+        width: 352px;
+        height: 222px;
+        bottom: 0%;
+        left: 0%;
+        display: block;
+    }
+
+    .gallery .item {
+        position: absolute;
+        top: 0px;
+        left: 0%;
+        width: 356px;
+        /* height: 100%; */
+
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity .5s;
+
+        background: #ffffff;
+        border: 0px solid rgb(34, 32, 70);
+        border-radius: 0px;
+
+        display: block;
+        margin: 0%;
+
+    }
+
+
+    .imgfullscreen {
+        width: 99%;
+        display: block;
+    }
+
+
+    #mostrar_mais {
+        position: absolute;
+        left: 5%;
+        top: 580px;
+        /* border: solid 3px; */
+        /* height: 12px; */
+        /* text-align: justify; */
+        /* padding: 24px; */
+        /* padding-left: 80px; */
+        /* padding-right: 80px; */
+        background: rgb(0, 180, 57);
+        color: white;
+        cursor: pointer;
+        /* text-decoration: none; */
+        display: block;
+        font-size: 18px;
+        width: auto;
+        border-radius: 32px;
+    }
+
+    .whatsapplink {
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+
+    .btn {
+        color: rgb(255, 255, 255);
+        padding: 13px;
+        text-decoration: none;
+        text-align: center;
+        background: rgb(0, 0, 52);
+        width: 12%;
+        border: 0px solid black;
+        border-radius: 4px;
+        font-size: 12px;
+        display: block;
+
+    }
+
+    /* ======================================================================================================= */
+    /*about-us  */
+    .about-us {
+        position: absolute;
+        width: 99%;
+        height: 1334px;
+        top: 640px;
+        border: 0px solid black;
+        margin: 0%;
+        display: block;
+
+    }
+
+    .titulo-about-us {
+        position: absolute;
+        top: 2%;
+        left: 2%;
+
+        display: block;
+
+    }
+
+    .txt-about-us {
+        width: 96%;
+        margin-left: 2%;
+        position: absolute;
+        border: 0px solid black;
+        left: 0%;
+        top: 8.5%;
+        display: inline-block;
+    }
+
+    .tap-igu1 {
+        position: absolute;
+        width: 92%;
+        border: 0px solid black;
+        left: 8%;
+        top: 770px;
+        display: none;
+    }
+
+    .tap-igu2 {
+        position: absolute;
+        width: 92%;
+        border: 0px solid black;
+        top: 1160px;
+        left: 8%;
+        display: none;
+    }
+
+    .fig1,
+    .fig2 {
+        border-radius: 1px;
+        transform: rotate(0deg)
+    }
+
+    .animation1 {
+        position: absolute;
+        width: 92%;
+        border: 0px solid black;
+        right: 3.5%;
+        top: 920px;
+        display: none;
+    }
+
+    .animation2 {
+        position: absolute;
+        width: 96%;
+        border: 0px solid black;
+        right: 0%;
+        top: 1360px;
+        display: none;
+    }
+
+    /* ================================================================================ */
+    .services {
+        position: absolute;
+        width: 356px;
+        height: 667px;
+        top: 1368px;
+        background-image: linear-gradient(#fadddd, #f9eded, white);
+        border: 0px solid black;
+        margin: 0%;
+        /* display: none;  */
+    }
+
+    .h1services {
+        position: absolute;
+        left: 5%;
+        color: rgb(0, 1, 53);
+        top: 8%;
+    }
+
+
+    .galeria {
+        position: absolute;
+        top: 20%;
+        left: 2%;
+        width: 96%;
+        height: 60%;
+        gap: 24px;
+        border: 0px solid black;
+        /* // Resolução img  */
+
+        overflow-x: auto;
+        /* //   Para barra de rolagem não influenciar  página inteira */
+
+
+        display: flex;
+        flex: row nowrap;
+        /* nowrap não permite quebra de linha */
+    }
+
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .galeria::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .galeria {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+
+    .itm {
+        /* 25% menor, margin de 12.5 em cima e 12.5% em baixo. */
+        position: relative;
+        top: 12.5%;
+        width: 315px;
+        height: 241px;
+        flex-shrink: 0;
+        /* não permite que a imagem diminua para caber. */
+        opacity: 0.2;
+        transition: all 600ms ease-in-out;
+        display: block;
+    }
+
+    .contador {
+        top: 0%;
+        opacity: 1;
+        width: 276px;
+        border: 4px solid #fadddd;
+        border-radius: 15px;
+        /* display: block; */
+    }
+
+
+    .btnesquerda {
+        /* setas */
+        position: absolute;
+        top: 30%;
+        padding: 16px;
+        border: 1px solid black;
+        border-radius: 50px;
+        background-color: rgb(207, 207, 207);
+        opacity: 0.5;
+        left: 2%;
+        display: none;
+    }
+
+    .btndireita {
+        /* setas */
+        position: absolute;
+        top: 30%;
+        padding: 16px;
+        border: 1px solid black;
+        border-radius: 50px;
+        background-color: rgb(207, 207, 207);
+        opacity: 0.5;
+        right: 2%;
+        display: none;
+    }
+
+    /* ======================================================================================================== */
+    /* footer */
+
+    .footr {
+        position: absolute;
+        top: 2285px;
+        width: 99%;
+        height: 210px;
+        background-image: linear-gradient(white, #f9eaea, #fadddd, #fadddd, #f9cbcb);
+
+        border: 0px solid#050030;
+
+        margin: 0%;
+        /* display: none;  */
+
+    }
+
+
+    .logofooter {
+        position: absolute;
+        /* border: 3px solid; */
+        width: 236px;
+        /* height: 120px; */
+
+        left: 18%;
+        top: 1%;
+        display: block;
+
+    }
+
+    .h1footer {
+        position: absolute;
+        left: 34%;
+        top: 36%;
+        /* text-align: center; */
+        /* border: 3px solid; */
+        width: 144px;
+        font-family: 'My Soul', cursive;
+        font-size: 32px;
+        color: #050030;
+        display: block;
+    }
+
+
+    .instafooter {
+        position: absolute;
+        left: 2%;
+        top: 15%;
+        display: block;
+
+    }
+
+    .facefooter {
+        position: absolute;
+        left: 2%;
+        top: 45%;
+        display: block;
+    }
+
+    .whatsfooter {
+        position: absolute;
+        left: -4%;
+        top: 75%;
+        display: block;
+    }
+
+    .endereco {
+        font-size: 12px;
+        color: grey;
+        position: absolute;
+        bottom: 0%;
+        left: 16%;
+
+        text-decoration: none;
+    }
+
+}

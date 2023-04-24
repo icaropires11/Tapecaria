@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descrição do conteúdo do site">
+
+    <link rel="stylesheet" href="./style/estilo.css">
+    <link rel="stylesheet" href="./style/gallery.min.css">
+    <link rel="stylesheet" href="./style/gallery.theme.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style/components/header.css">
+    <link rel="stylesheet" href="./style/components/about-us.css">
+    <link rel="stylesheet" href="./style/components/service.css">
+    <link rel="stylesheet" href="./style/components/foooter.css">
+    <!-- Lembre-se...efeito cascata -->
+
+    <link rel="stylesheet" href="./style/components/responsive.css">
+
+    <script src="./services.Js" defer></script>
+    <!-- defer para carregar script depois do restante do documento -->
+
+
+
+    <style>
+        body {
+            background-image: url('./layouttapecaria.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+
+    <title>Tapeçaria Iguaçu</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <H1>Tapeçaria Iguaçu</H1>
+
+            <div id="logo">
+                <img id="imglogo" src="./img/logoblack.png" alt="logogamrca">
+            </div>
+
+            <div id="burguer" onclick="clickMenu()">
+                <img id="imgburguer" src="./img/menu.png" alt="">
+            </div>
+
+            <nav id="menu">
+                <a id="btn_home" class="btn" href="#btn_home">Home</a>
+                <a id="btn_sobre_nos" class="btn" href="#about_us">Sobre Nós</a>
+                <a id="btn_Servicos" class="btn" href="#servicos">Galeria</a>
+            </nav>
+
+
+            <p id="chamada"> l
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Vitae animi.
+            </p>
+
+            <div id="subtitulo">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore itaque suscipit quibusdam nulla a
+                    doloribus magnam.</h2>
+            </div>
+
+            <button class="btn" class="whatsapplink" id="mostrar_mais">
+                <a class="whatsapplink"
+                    href="https://wa.me/5543984139075?text=Olá!!!%20Gostaria%20de%20fazer%20um%20orçamento."
+                    target="_blank"> <b>WhatsApp</b> </a>
+                <img src="./img/WhatsApp.png" alt="" style="width: 56px; position: absolute; left: 0%; top: 0%;">
+            </button>
+            <!-- https://web.whatsapp.com/send?phone=5543984139075  -->
+
+            <div class="slides">
+                <!-- https://www.youtube.com/watch?v=AmG2vFnHVfI&list=PLChCOvUOTA8wHauJw_zEJkYtW0daW-Nqj&index=2&t=695s -->
+                <!-- Sem JS (arquivos css theme e css-min) -->
+
+                <div class="gallery autoplay items-5">
+
+
+                    <figure class="item">
+                        <img class="imgfullscreen" src="./img/slide1.jpg" alt="">
+                    </figure>
+
+                    <figure class="item">
+                        <img class="imgfullscreen" src="./img/slide2.jpg" alt="">
+                    </figure>
+
+                    <figure class="item">
+                        <img class="imgfullscreen" src="./img/slide3.jpg" alt="">
+                    </figure>
+
+                    <figure class="item">
+                        <img class="imgfullscreen" src="./img/slide4.jpg" alt="">
+                    </figure>
+
+                    <figure class="item">
+                        <img class="imgfullscreen" src="./img/slide5.jpg" alt="">
+                    </figure>
+
+                    <div class="controls">
+                        <a href="#item-1" class="control-button">•</a>
+                        <a href="#item-2" class="control-button">•</a>
+                        <a href="#item-3" class="control-button">•</a>
+                        <a href="#item-4" class="control-button">•</a>
+                        <a href="#item-5" class="control-button">•</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </header>
+
+        <section class="about-us" id="about_us">
+
+            <h2 class="titulo-about-us">Sobre Nós</h2>
+
+
+            <article class="txt-about-us">
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut praesentium consectetur ipsa
+                    voluptatibus tenetur, eum hic adipisci placeat illo sapiente repellendus dolorum dolorem cumque
+                    necessitatibus veritatis debitis corrupti cupiditate? Laboriosam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut praesentium consectetur ipsa
+                    voluptatibus tenetur, eum hic adipisci placeat illo sapiente repellendus dolorum dolorem cumque
+                    necessitatibus veritatis debitis corrupti cupiditate? Laboriosam?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut praesentium consectetur ipsa
+                    voluptatibus tenetur, eum hic adipisci placeat illo sapiente repellendus dolorum dolorem cumque
+                    necessitatibus veritatis debitis corrupti cupiditate? Laboriosam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut praesentium consectetur ipsa
+                    voluptatibus tenetur, eum hic adipisci placeat illo sapiente repellendus dolorum dolorem cumque
+                    necessitatibus veritatis debitis corrupti cupiditate? Laboriosam?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut praesentium consectetur ipsa
+                    voluptatibus tenetur, eum hic adipisci placeat illo sapiente repellendus dolorum dolorem cumque
+                    necessitatibus veritatis debitis corrupti cupiditate? Laboriosam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut praesentium consectetur ipsa
+                    voluptatibus tenetur, eum hic adipisci placeat illo sapiente repellendus dolorum dolorem cumque
+                    necessitatibus veritatis debitis corrupti cupiditate? Laboriosam?
+                </p>
+            </article>
+
+
+            <section class="animation1">
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_4gf1fnm1.json"
+                    background="transparent" speed="1" style="width: 300px; height: 300px;" loop
+                    autoplay></lottie-player>
+            </section>
+
+            <section class="animation2">
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_njmlqovc.json"
+                    background="transparent" speed="1" style="width: 300px; height: 300px;" loop
+                    autoplay></lottie-player>
+            </section>
+
+            <section class="tap-igu1">
+                <img class="fig1" src="./img/fig1.jpg" alt="" style="width: 300px;">
+            </section>
+
+            <section class="tap-igu2">
+                <img class="fig2" src="./img/fig2.jpg" alt="" style="width: 300px;">
+            </section>
+
+        </section>
+
+        <section class="services" id="servicos">
+
+            <h2 class="h1services" style="position: absolute; left: 5%; color: rgb(0, 1, 53);">Galeria</h2>
+
+            <div class="galeria" id="noscroll">
+                <img class="itm contador" src=".//img/12893633_5103715.jpg" alt="">
+                <img class="itm contador" src="./img/borda3.jpg" alt="">
+                <img class="itm contador" src=".//img/12893633_5103715.jpg" alt="">
+                <img class="itm contador" src="./img/borda3.jpg" alt="">
+                <img class="itm contador" src=".//img/12893633_5103715.jpg" alt="">
+                <img class="itm contador" src="./img/nopicture.jpg" alt="">
+            </div>
+
+
+            <button class="btndireita" id="control" aria-label="próximo">
+                <img class="img-btndireita" src="./img/seta-direita.png" alt="">
+            </button>
+
+            <button class="btnesquerda" id="control" aria-label="anterior">
+                <img class="img-btnesquerda" src="./img/seta-esquerda.png" alt="">
+            </button>
+
+        </section>
+
+    </main>
+
+    <footer class="footr" id="foooter">
+
+        <div class="logofooter">
+            <img src="./img/logofooter.png" alt="logotipo" ;>
+        </div>
+
+        <div class="h1footer">
+            <p> Tapeçaria Iguaçu</p>
+        </div>
+        <div class="instafooter">
+
+            <a href="">
+                <img src="./img/instagram.png" alt="instagram" style="width: 30px" ;>
+            </a>
+        </div>
+
+        <div class="whatsfooter">
+
+            <a href="https://wa.me/5543984139075?text=Olá!!!%20Gostaria%20de%20fazer%20um%20orçamento." target="_blank">
+                <img src="./img/WhatsApp.png" alt="whatsapp" style="width: 64px" ;>
+            </a>
+        </div>
+
+        <div class="facefooter">
+            <a href="">
+                <img src="./img/facebook.png" alt="facebook" style="width: 30px;">
+            </a>
+        </div>
+
+        <div>
+
+            <a class="endereco" href="goooglemaps">
+                Digitar aqui o endereço ... nº xxxx Cambé - PR
+            </a>
+        </div>
+
+    </footer>
+
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+                // behavior: "smooth"
+
+            } else {
+                menu.style.display = 'block'
+                // behavior: "smooth"
+            }
+
+        }
+    </script>
+</body>
+
+</html>

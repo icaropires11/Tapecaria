@@ -1,0 +1,72 @@
+.footr {
+    position: absolute;
+    top: 2638px;
+    width: 1337px;
+    height: 210px;
+    background-image: linear-gradient(white, #f9eaea, #fadddd, #fadddd, #f9cbcb);
+
+    border: 0px solid#050030;
+
+    margin: 0%;
+    /* display: none;  */
+
+}
+
+
+.logofooter {
+
+    position: absolute;
+
+    text-align: center;
+    /* border: 3px solid; */
+    width: 240px;
+    /* height: 120px; */
+
+    left: 41%;
+    top: 1%;
+
+}
+
+
+.h1footer {
+    position: absolute;
+    left: 41.5%;
+    top: 40%;
+    /* text-align: center; */
+    /* border: 3px solid; */
+    width: 240px;
+    font-family: 'My Soul', cursive;
+    font-size: 32px;
+    color: #050030;
+}
+
+
+
+.instafooter {
+    position: absolute;
+    left: 44%;
+    top: 75%;
+
+}
+
+.facefooter {
+    position: absolute;
+    left: 55%;
+    top: 75%;
+}
+
+.whatsfooter {
+    position: absolute;
+    left: 48%;
+    top: 69%;
+}
+
+.endereco {
+    font-size: 12px;
+    color: grey;
+    position: absolute;
+    bottom: 0%;
+    left: 41%;
+
+    text-decoration: none;
+}

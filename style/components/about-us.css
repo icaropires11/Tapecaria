@@ -1,0 +1,54 @@
+.about-us {
+    position: absolute;
+    width: 1338px;
+    height: 642px;
+    top: 987px;
+    border: 0px solid black;
+    margin: 0%;
+    /* display: none; */
+
+}
+
+.txt-about-us {
+    width: 55%;
+    position: absolute;
+    border: 0px solid black;
+    left: 0%;
+}
+
+.tap-igu1 {
+    position: absolute;
+    width: 22%;
+    border: 0px solid black;
+    right: 3%;
+}
+
+.tap-igu2 {
+    position: absolute;
+    width: 22%;
+    border: 0px solid black;
+    top: 333px;
+    right: 22%;
+}
+
+.fig1,
+.fig2 {
+    border-radius: 33px;
+    transform: rotate(22.5deg)
+}
+
+.animation1 {
+    position: absolute;
+    width: 22%;
+    border: 0px solid black;
+    right: 22.5%;
+    top: 10px;
+}
+
+.animation2 {
+    position: absolute;
+    width: 22.5%;
+    border: 0px solid black;
+    right: 0%;
+    top: 333px;
+}
