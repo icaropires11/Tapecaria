@@ -3,9 +3,9 @@
 
 - 🌱 Atualmente estou Aprendendo Ciência de dados na **Alura**
 
-- 👯 Já fui apresentado a tecnologias de FrontEnd [Página de Tapeçaria](https://github.com/icaropires11/Tapecaria)
+- 👯 Já fui apresentado a algumas tecnologias de FrontEnd [Página de Tapeçaria](https://github.com/icaropires11/Tapecaria)
 
-- 📫 Você pode me encontrar no email **icaro.pires.11@uel.br**
+- 📫 Você pode me encontrar através do email **icaro.pires.11@uel.br**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
